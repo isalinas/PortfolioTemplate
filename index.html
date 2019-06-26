@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html class="no-js" lang="eng">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content ="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale =1">
+	<title>Ibraim Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+	
+</head>
+
+<body>
+	<div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+	
+	<header>
+		 <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+
+		<ul id = "menu" class="shadow">
+			<li>
+				<a href="#about">About</a>
+			</li>
+
+			<li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+		</ul>
+	</header>
+
+	<div id="intro">
+		<div id="intro-content">
+			<h1>Ibraim Salinas</h1>
+			<h2>Software/Web Developer</h2>
+			<a href="#" class ="btn-rounded-white" >Download Resume</a>
+		</div>
+
+		<div id="intro-overlay"></div>
+
+		<div id="intro-down">
+			<span>
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</span>
+		</div>
+	</div>
+
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am currently a part-time student at the University of Nebraska-Lincoln studying Computer Science. I enjoy using my skills learned through internships and college to create new programs. But actually, most of those skills have came from StackOverflow, Youtube, and Google.
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="August 2017 – August 2018">
+                <h3>Sandhills Publishing</h3>
+                <h4>Software Developer Intern</h4>
+                <p>
+                    My last project involved designing, implementing, and testing a new time management system for the company that allows managers to update page content without having to contact the database sector to make changes. 
+                </p>
+                <p>
+                    Other projects I was involved included creating new or updating legacy reporting software used within the company. 
+                    I also provided post-implementation support that included monitoring current software and debugging existing code. 
+                </p>
+            </div>
+
+            <div data-date="May 2017 – August 2017">
+                <h3>Vishay</h3>
+                <h4>Web Developer Intern</h4>
+                <p>
+                   I was the first Web Developer Vishay hired in an effort to see how web programs can reduce bottlenecks within the company and visualize manufacturing processes.
+                </p>
+                <p>
+                    The web programs visualize, but not limited to, how many parts have been manufactured, how many are left to finish an order, predicts how many will be produced, what orders have not been finished, deadline for orders, and the ability to predict when the orders will be finished.   
+                </p>
+                <p>
+                    I also provided post-implementation support by documenting possible code changes and solutions due to changes to their database or manufacturing process
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id = "education">
+        <h2 class="heading">Education</h2>
+       
+        <div class="education-block">
+            <h3>University of Nebraska-Lincoln</h3>
+            <span class = "education-date">August 2015 - May 2020</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <h5> GPA: 3.2 </h5>
+            <p>
+                Currently a part-time student taking a 3 credit hour class to finish my bachelors. 
+            </p>
+        </div>
+
+        <div class="education-block">
+            <h3>Involvment & Organizations</h3>
+            <h4></h4>
+            <ul>
+                <li>
+                    Participated in University of Colorado-Boulder and Iowa State Hackathons 
+                </li>
+                <li>
+                    Competed in ACM-ICPC   
+                </li>
+                <li>
+                    Volunteered at Southeast Community College as a T.A. for Algebra
+                </li>
+                <li>
+                    Volunteered at Lighthouse, an after-school program for middle and high school aged youth
+                </li>
+                <li>
+                    Member of Theta Chi Fraternity    
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id ="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+
+                <div class="project shadow-large">
+                  <div class = "no-image">
+                    <div class="project-info">
+                        <h3>Wildfire Alert System</h3>
+                        <p>
+                            This project was started for a three day hackathon at the Univeristy of Colorado-Boulder. My team and I took two Freewave z9-p radios to work in an IoT configuration to retrieve temperature and upload the data to an AWS database that is used by a website to display the temperature
+                        </p>
+                        <p>
+                            The website analyzed the temperature and if it reached over 100 fahrenheit, It would also kick a script that would use Twitters API to send a tweet to a twitter account
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                  <div class = "no-image">
+                    <div class="project-info">
+                        <h3>FPGA Missle Launcher</h3>
+                        <p>
+                            This project began by first designing the logic for the processor. After the logic for the processor has been designed and implemented through VHDL, I began on creating a Java Assembler Compiler that would translate Assembly code into binary. This allowed for easier implementation of instructions
+                        </p>
+                        <p>
+                            The FPGA board would light up the eight segment display to say "Enter Code". Only after the correct button sequence has been pressed, the eight segment display would display "FIRE". Pressing any button would begin a countdown on the eight segment display. When the display reached zero it would turn off and back on asking to "FIRE" again.  
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                    <div class="project shadow-large">
+                  <div class = "no-image">
+                    <div class="project-info">
+                        <h3>Sneaker Bot</h3>
+                        <p>
+                            This was a python GUI that gave a user a greather chance to buy limited release shoes from Adidas.com 
+                        </p>
+                        <p>
+                           The way it worked is the user would enter information such as the URL, shoe size and payment. The program would go to the URL, and perform the necessary actions to purchase the shoes. The features that gauranteed a cop of the shoe was multithreading using POSIX 
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                  <div class = "no-image">
+                    <div class="project-info">
+                        <h3>Arduino Drummer</h3>
+                        <p>
+                            The hardware that was used was a pre-assembled drum kit that composed of two tom-toms, a bass drum, floor tom and hi-hat. Each component had one or two drum sticks with actuators and a H bridge.
+                        </p>
+                        <p>
+                             A Python based MIDI converter took a MIDI file into a header file containing the drum patterns in a binary format. The drum-kit master controller send the patterns from the MIDI converter output to the corresponding drum-kit controllers
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+     <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>VB.NET</li>
+            <li>Node.js</li>
+            <li>Gulp</li>
+            <li>.Net</li>
+            <li>CSS</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>SQL</li>
+            <li>Sass</li>
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/isalinas@huskers.unl.edu">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+
+     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Ibraim Salinas
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/ibraimsalinas/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href=https://www.linkedin.com/in/ibraimsalinas/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/IbraimSalinas" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

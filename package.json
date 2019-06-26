@@ -1,0 +1,28 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "ibraims portfolio",
+  "main": "js/scripts.js",
+  "scripts": {
+      "watch": "gulp watch"
+  },
+  "author": "Ibraim Salinas",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wait": "0.0.2"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wait": "0.0.2"
+  }
+}
