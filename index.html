@@ -147,39 +147,13 @@
         </div>
     </div>
 
+
+    <div id="vrview"></div>
+
     <div id ="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-
-                <div class="project shadow-large">
-                  <div class = "no-image">
-                    <div class="project-info">
-                        <h3>Wildfire Alert System</h3>
-                        <p>
-                            This project was started for a three day hackathon at the Univeristy of Colorado-Boulder. My team and I took two Freewave z9-p radios to work in an IoT configuration to retrieve temperature and upload the data to an AWS database that is used by a website to display the temperature
-                        </p>
-                        <p>
-                            The website analyzed the temperature and if it reached over 100 fahrenheit, It would also kick a script that would use Twitters API to send a tweet to a twitter account
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="project shadow-large">
-                  <div class = "no-image">
-                    <div class="project-info">
-                        <h3>FPGA Missle Launcher</h3>
-                        <p>
-                            This project began by first designing the logic for the processor. After the logic for the processor has been designed and implemented through VHDL, I began on creating a Java Assembler Compiler that would translate Assembly code into binary. This allowed for easier implementation of instructions
-                        </p>
-                        <p>
-                            The FPGA board would light up the eight segment display to say "Enter Code". Only after the correct button sequence has been pressed, the eight segment display would display "FIRE". Pressing any button would begin a countdown on the eight segment display. When the display reached zero it would turn off and back on asking to "FIRE" again.  
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
                     <div class="project shadow-large">
                   <div class = "no-image">
                     <div class="project-info">
@@ -234,6 +208,7 @@
         </ul>
     </div>
 
+
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
@@ -246,9 +221,9 @@
         </div>
     </div>
     
-
+    <script src="build/vrview.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 
      <footer>
