@@ -27,8 +27,8 @@ var scenes = {
 
 function onLoad() {
   vrView = new VRView.Player("#vrview", {
-    image: "img/blank.png",
-    preview: "img/blank.png",
+    image: "/img/blank.png",
+    preview: "/img/blank.png",
     is_stereo: false,
     is_autopan_off: true
   });
